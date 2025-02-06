@@ -1,7 +1,7 @@
 import random
 import time
 
-invalid_responses = ["hey man that's not the input i asked you for!!!!", "ok buddy, you're not making any sense", "can we not do this man... enter something valid", "ENTER!!!SOMETHING!!!VALID!!!", "please enter something valid... any time today...", "yes please waste my time... i'll be here all day..."]
+INVALID_RESPONSES = ["hey man that's not the input i asked you for!!!!", "ok buddy, you're not making any sense", "can we not do this man... enter something valid", "ENTER!!!SOMETHING!!!VALID!!!", "please enter something valid... any time today...", "yes please waste my time... i'll be here all day..."]
 
 def selection_sort(arr):
     for i in range(len(arr)-1):
