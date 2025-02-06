@@ -5,5 +5,5 @@ A simple application that visualizes sorting algorithms for easier understanding
 Currently a WIP!
 
 ## Algorithms
-* Selection Sort
+Selection Sort
 ![Selection sort visualized](screenshots/Selection-Sort.gif)
