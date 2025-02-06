@@ -21,7 +21,7 @@ def main():
             arr = [random.randint(0, 100) for _ in range(length)]
             selection_sort(arr)
         except ValueError:
-            print(invalid_responses[random.randint(0, len(invalid_responses)-1)])
+            print(INVALID_RESPONSES[random.randint(0, len(INVALID_RESPONSES)-1)])
     
     
 if __name__ == "__main__":
